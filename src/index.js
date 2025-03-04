@@ -15,7 +15,7 @@ app.use(
     })
 )
 
-app.use(userRouter)
+app.use("/api",userRouter)
 
 
 app.listen(port, () => {
